@@ -1,4 +1,4 @@
-package com.example.project9_4;
+package com.cookandroid.project9_4;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,7 +10,7 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PaintView extends View {
+public class MyGraphicView extends View {
     private final List<Shape> shapeList = new ArrayList<>();
     private final Paint drawPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
@@ -21,7 +21,7 @@ public class PaintView extends View {
     private float currentY;
     private boolean isDrawing;
 
-    public PaintView(Context context) {
+    public MyGraphicView(Context context) {
         super(context);
         drawPaint.setColor(Color.BLUE);
         drawPaint.setStyle(Paint.Style.STROKE);

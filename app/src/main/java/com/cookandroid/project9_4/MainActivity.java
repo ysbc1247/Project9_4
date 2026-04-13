@@ -1,4 +1,4 @@
-package com.example.project9_4;
+package com.cookandroid.project9_4;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,12 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private PaintView paintView;
+    private MyGraphicView paintView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        paintView = new PaintView(this);
+        paintView = new MyGraphicView(this);
         setContentView(paintView);
     }
 

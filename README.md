@@ -8,12 +8,12 @@
 - `onDraw` 이벤트에서 리스트의 모든 도형 객체를 캔버스에 다시 그림
 
 ## 주요 파일
-- `app/src/main/java/com/example/project9_4/Shape.java`
-- `app/src/main/java/com/example/project9_4/Line.java`
-- `app/src/main/java/com/example/project9_4/Circle.java`
-- `app/src/main/java/com/example/project9_4/Rect.java`
-- `app/src/main/java/com/example/project9_4/PaintView.java`
-- `app/src/main/java/com/example/project9_4/MainActivity.java`
+- `app/src/main/java/com/cookandroid/project9_4/Shape.java`
+- `app/src/main/java/com/cookandroid/project9_4/Line.java`
+- `app/src/main/java/com/cookandroid/project9_4/Circle.java`
+- `app/src/main/java/com/cookandroid/project9_4/Rect.java`
+- `app/src/main/java/com/cookandroid/project9_4/MyGraphicView.java`
+- `app/src/main/java/com/cookandroid/project9_4/MainActivity.java`
 - `app/src/main/res/menu/shape_menu.xml`
 
 ## 실행 결과 캡처

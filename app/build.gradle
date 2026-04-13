@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.project9_4'
+    namespace 'com.cookandroid.project9_4'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.project9_4"
+        applicationId "com.cookandroid.project9_4"
         minSdk 24
         targetSdk 34
         versionCode 1
