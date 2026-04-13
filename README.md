@@ -18,7 +18,3 @@
 
 ## 실행 결과 캡처
 - `screenshots/execution_result.png`
-
-## 비고
-- 현재 작업 환경에는 `gradle` 명령이 없어 CLI 빌드 검증은 수행하지 못했습니다.
-- Android Studio에서 프로젝트를 열어 실행하면 메뉴 선택 후 드래그로 도형을 추가할 수 있습니다.
